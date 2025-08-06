@@ -78,6 +78,7 @@ Weather Alert System
 Tech Stack: Node.js, TypeScript, MongoDB, Jest
 
 Developed a weather monitoring and alert system that parses CSV data, stores it in MongoDB, and triggers alerts for critical weather conditions. Implemented multiple alert types (e.g., high winds, rapid pressure drops, hurricanes), structured with modular TypeScript services, and ensured reliability through unit testing with Jest.
+
 🛠️ Setup & Usage
 Prerequisites
 Node.js (v18+ recommended)
@@ -97,10 +98,6 @@ npm start -- ./path/to/your/weather.csv
 npm start
 Running Tests
 npm test
-🧪 Example CSV Format
-record_time	air_pres	air_temp	water_temp	wind_dir	wind_speed
-2024-06-01T12:00:00Z	1012	25	20	180	15
-...	...	...	...	...	...
 
 🛡️ Testing
 Tests are located in src/tests/
